@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "@4tw/cypress-drag-drop", "node"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["cypress.config.ts", "cypress", "node_modules"]
+}

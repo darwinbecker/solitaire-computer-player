@@ -1,0 +1,23 @@
+{
+  "name": "solitaire-computer-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "Darwin Becker",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/md5": "^2.3.5",
+    "cypress": "^13.3.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "md5": "^2.3.0",
+    "uuid": "^9.0.1"
+  }
+}
